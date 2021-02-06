@@ -123,18 +123,10 @@ STATIC_URL = '/static/'
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'
 
-<<<<<<< Updated upstream
-#Send password reset to email
-=======
->>>>>>> Stashed changes
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'manjudjango@gmail.com'
 EMAIL_HOST_PASSWORD ='dfeeoybqfblimazn'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-<<<<<<< Updated upstream
 DEFAULT_FROM_EMAIL = 'manjudjango@gmail.com'
-=======
-DEFAULT_FROM_EMAIL = 'manjudjango@gmail.com'
->>>>>>> Stashed changes
